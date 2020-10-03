@@ -5,6 +5,10 @@ import '../stylesheets/Moviehall.css';
 import Seatbooking from './Seatbooking';
 import HallList from './HallList';
 import 'bootstrap/dist/css/bootstrap.css';
+
+
+
+
 export class HallForm extends Component {
 
   constructor(props) {

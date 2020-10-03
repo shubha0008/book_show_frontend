@@ -3,7 +3,7 @@ import '../stylesheets/seats.css';
 
 class Seatbooking extends React.Component {
 
-  constructor() {
+  constructor() { 
     super();
     this.state = {
       seat: [

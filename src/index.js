@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './App';
+import App from './Components/App';
 import './stylesheets/index.css';
-import { HallForm } from './Components/HallForm'
-import 'bootstrap/dist/css/bootstrap.css';
+import { HallList } from './Components/HallList'
+import 'bootstrap/dist/css/bootstrap.css'; 
 ReactDOM.render(
-  <HallForm />,
+
+  <HallList/>,
   document.getElementById('root')
 );
